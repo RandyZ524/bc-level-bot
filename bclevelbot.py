@@ -7,7 +7,7 @@ import re
 import requests
 import bs4
 
-path = '/Users/Randy/Documents/BC Level Bot/commented.txt'
+path = 'commented.txt'
 
 header = '**Enemies in the level:**\n'
 footer = '\n\n^I\'m ^a ^bot ^| ^I ^was ^developed ^by ^u/RandyZ524 ^| ^Please ^PM ^him ^for ^any ^comments, ^suggestions, ^or ^bug ^reports'
