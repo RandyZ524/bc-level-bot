@@ -59,7 +59,7 @@ def run_bclevelbot(reddit):
 	print("Getting 250 comments...\n")
 	pat = r'(?<=\[\[).+?(?=\]\])'
 	
-	for comment in reddit.subreddit('battlecats').comments(limit = 250):
+	for comment in reddit.subreddit('test').comments(limit = 250):
 		match = re.findall(pat, comment.body)
 		if match:
 			print("Link found in comment with comment ID: " + comment.id)
