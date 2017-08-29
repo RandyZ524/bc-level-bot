@@ -1,1 +1,1 @@
-web: python bclevelbot.py
+worker: python bclevelbot.py
